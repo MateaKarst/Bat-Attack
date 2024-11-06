@@ -1,0 +1,39 @@
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    width: 500px;
+    height: 1000px;
+}
+
+.controls {
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.controls,
+select,
+input {
+    font-size: 30px;
+}
+
+option{
+    font-size: 15px;
+}
+
+
+input,
+select {
+    width: 250px;
+    border: 1px solid black;
+}
